@@ -272,14 +272,12 @@ footer {
 /* https://copypet.jp/671/ */
 .cp_navi {
 	background-color: #ffffff;
-	border: 1px solid #dedede;
-	border-radius: 4px;
-	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+	border: 2px solid #dedede;
+	border-radius: 5px;
 	color: #888888;
-	display: block;
-	margin: 1em 1%;
-	overflow: hidden;
-	width: 98%;
+	display: flex;
+	margin: 2%;
+	overflow: auto;
 }
 .cp_navi ul {
 	margin: 0;

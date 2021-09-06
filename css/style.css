@@ -255,7 +255,8 @@ a {
 	font-weight: normal;
 }
 .heading a {
-	color: cornflowerblue;
+	font-weight: normal;
+	color:darkcyan
 }
 
 footer {

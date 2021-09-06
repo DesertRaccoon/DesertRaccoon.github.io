@@ -254,6 +254,9 @@ a {
 .heading h2 {
 	font-weight: normal;
 }
+.heading a {
+	color: cornflowerblue;
+}
 
 footer {
 	padding-top: 30px;

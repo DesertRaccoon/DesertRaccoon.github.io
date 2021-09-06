@@ -256,7 +256,7 @@ a {
 }
 .heading a {
 	font-weight: normal;
-	color:darkcyan
+	color:rgba(34,49,52,0.9);
 }
 
 footer {

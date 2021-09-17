@@ -51,6 +51,10 @@ nav {
 .sm{
 	display: none; /*sm用を全消し*/
 }
+
+.sm2{
+	display: none; /*sm用を全消し*/
+}
 /* ↑パソコン用 */
 
 /* ↓スマホ用 */
@@ -126,6 +130,7 @@ nav {
 		text-align: center;	/*メニューリストの文字を中央寄せ*/
 		border-top: solid 0.5px rgba(255, 255, 255, 0.6);	/*リストの境目に白線 */
 	}
+
 }
 /* ↑スマホ用 */
 

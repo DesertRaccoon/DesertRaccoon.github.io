@@ -26,7 +26,7 @@ header {
 nav {
 	margin: 0 0 0 auto;
 }
-.pc ul {
+.ul {
 	display: flex;
 	list-style: none; /* 箇条書きの点を取る */
 	padding: 0;
@@ -102,7 +102,7 @@ nav {
 		background-color: rgba(34, 49, 52, 0.9);
 	}
 
-	.sm ul {
+	.ul {
 		flex-direction: column;	/*ulのflexboxを縦並びにする*/  
 	}
 
@@ -134,6 +134,15 @@ img {
 	padding-right: 5%;
 	background-color: #f7f7f7;
 	text-align: center;
+}
+.article a{
+	font-weight: normal;
+}
+.article ul{
+	font-weight: normal;
+}
+.article li{
+	font-weight: normal;
 }
 .heading {
 	color: #5f5d60;

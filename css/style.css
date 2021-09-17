@@ -52,9 +52,6 @@ nav {
 	display: none; /*sm用を全消し*/
 }
 
-.sm2{
-	display: none; /*sm用画像を全消し*/
-}
 /* ↑パソコン用 */
 
 /* ↓スマホ用 */
@@ -131,10 +128,6 @@ nav {
 		border-top: solid 0.5px rgba(255, 255, 255, 0.6);	/*リストの境目に白線 */
 	}
 
-	.sm2 {
-		font-weight: normal;
-	}
-
 }
 /* ↑スマホ用 */
 
@@ -189,3 +182,13 @@ footer p {
 	font-size: 12px;
 }
   
+
+/* パソコンで見たときは"pc"のclassがついた画像が表示される */
+.pcfig { display: block !important; }
+.smfig { display: none !important; }
+
+/* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
+@media only screen and (max-width: 600px) {
+	.pcfig { display: none !important; }
+	.smfig { display: block !important; }
+}

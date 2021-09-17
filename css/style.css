@@ -26,13 +26,13 @@ header {
 nav {
 	margin: 0 0 0 auto;
 }
-ul {
+.pc ul {
 	display: flex;
 	list-style: none; /* 箇条書きの点を取る */
 	padding: 0;
 	margin: 0;
 }
-a {
+.pc a {
 	color:#ffffff;
 	text-decoration: none;
 	display: block;
@@ -102,11 +102,11 @@ a {
 		background-color: rgba(34, 49, 52, 0.9);
 	}
 
-	ul {
+	.sm ul {
 		flex-direction: column;	/*ulのflexboxを縦並びにする*/  
 	}
 
-	a {
+	.sm a {
 		text-align: center;	/*メニューリストの文字を中央寄せ*/
 		border-top: solid 0.5px rgba(255, 255, 255, 0.6);	/*リストの境目に白線 */
 	}

@@ -26,13 +26,13 @@ header {
 nav {
 	margin: 0 0 0 auto;
 }
-.ul {
+.pc ul {
 	display: flex;
 	list-style: none; /* 箇条書きの点を取る */
 	padding: 0;
 	margin: 0;
 }
-.a {
+.pc a {
 	color:#ffffff;
 	text-decoration: none;
 	display: block;
@@ -42,7 +42,7 @@ nav {
 
 /*↓↓パソコン用↓↓*/
 .sm{
-	display: none; /*pc用を全消し*/
+	display: none; /*sm用を全消し*/
 }
 /* ↑パソコン用 */
 
@@ -102,11 +102,20 @@ nav {
 		background-color: rgba(34, 49, 52, 0.9);
 	}
 
-	.ul {
+	.sm ul {
+		display: flex;
+		list-style: none; /* 箇条書きの点を取る */
+		padding: 0;
+		margin: 0;
 		flex-direction: column;	/*ulのflexboxを縦並びにする*/  
 	}
 
-	.a {
+	.sm a {
+		color:#ffffff;
+		text-decoration: none;
+		display: block;
+		line-height: 60px;
+		padding: 0 20px;
 		text-align: center;	/*メニューリストの文字を中央寄せ*/
 		border-top: solid 0.5px rgba(255, 255, 255, 0.6);	/*リストの境目に白線 */
 	}
@@ -135,13 +144,13 @@ img {
 	background-color: #f7f7f7;
 	text-align: center;
 }
-.article a{
+.a{
 	font-weight: normal;
 }
-.article ul{
+.ul{
 	font-weight: normal;
 }
-.article li{
+.li{
 	font-weight: normal;
 }
 .heading {

@@ -121,6 +121,9 @@ a {
 }
 
 .top-wrapper {
+	width: 100%;
+	height: 300px;
+	background-position: 50% 10%;
 	padding: 180px 0 100px 0;
 	background-image: url(/image/fig_fuji.jpg);
 	background-size: cover;

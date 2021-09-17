@@ -184,11 +184,19 @@ footer p {
   
 
 /* パソコンで見たときは"pc"のclassがついた画像が表示される */
-.pcfig { display: block !important; }
-.smfig { display: none !important; }
+.pcfig {
+	display: block !important;
+}
+.smfig {
+	display: none !important;
+}
 
 /* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
-@media only screen and (max-width: 600px) {
-	.pcfig { display: none !important; }
-	.smfig { display: block !important; }
+@media (max-width: 600px) {
+	.pcfig {
+		display: none !important;
+	}
+	.smfig {
+		display: block !important;
+	}
 }
